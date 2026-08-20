@@ -1,483 +1,402 @@
- Airline Flight Performance & Operations Dashboard
+# ✈️ Airline Flight Performance & Operations Dashboard
 
- Dashboard Preview
 
- ✈️ AIRLINE OVERVIEW
- <img width="1416" height="800" alt="Overview" src="https://github.com/user-attachments/assets/2d7a96e8-98fb-410c-bbb1-1ca0b2e9214e" />
+# 📸 Dashboard Preview
 
- 📊 AIRLINE PERFORMANCE
- <img width="1426" height="795" alt="Airline   Performance" src="https://github.com/user-attachments/assets/aae65ec1-f4e8-4ba0-9012-4609a4e7ebd7" />
+✈️ AIRLINE OVERVIEW
 
- 🛫 ROUTE & AIRPORT MAP
- <img width="1420" height="803" alt="Route   Airport Map" src="https://github.com/user-attachments/assets/0836c284-8de8-4d00-b7a7-33d760d59f83" />
+<img width="1416" height="800" alt="Overview" src="https://github.com/user-attachments/assets/4056f73d-8019-4ed3-a35d-02887d0f045a" />
 
- 🔍 DRILL THROUGH
- <img width="1420" height="806" alt="Drill-Through Detail" src="https://github.com/user-attachments/assets/90e8199a-151d-4ed6-a2dc-b756ec410640" />
+📊 AIRLINE PERFORMANCE
 
-  📈 TREND & FORECAST
-  <img width="1410" height="800" alt="Trends   Forecast" src="https://github.com/user-attachments/assets/9d3aa35a-b9cd-48e4-8d54-4063d871eb1c" />
+<img width="1426" height="795" alt="Airline   Performance" src="https://github.com/user-attachments/assets/b3fd5dad-caf9-4db0-a0ea-1b26a53353ea" />
 
-  💡 TOOLTIP
-  <img width="1065" height="797" alt="Tooltip Airport" src="https://github.com/user-attachments/assets/2dd56cbb-230d-4adc-8d19-c0f6403d864d" />
+🛫 ROUTE & AIRPORT MAP
 
-  
-📊 Project Overview
+<img width="1420" height="803" alt="Route   Airport Map" src="https://github.com/user-attachments/assets/47aa6d24-de82-462a-a0c9-420e21075512" />
 
-This project is an interactive Power BI Airline Performance Dashboard built to analyze flight operations, delays, cancellations, airline performance, airport activity, and historical trends.
+🔍 DRILL THROUGH
 
-The dashboard transforms flight-level data into an easy-to-use analytical report with KPI cards, slicers, bar charts, donut charts, maps, heatmaps, drill-through analysis, tooltips, and forecasting.
+<img width="1420" height="806" alt="Drill-Through Detail" src="https://github.com/user-attachments/assets/b90b619a-2ddc-4d22-87ab-4b601b4516eb" />
 
-The main objective is to help users quickly answer questions such as:
+📈 TREND & FORECAST
 
-How many flights were operated?
+<img width="818" height="612" alt="Screenshot 2026-08-20 113331" src="https://github.com/user-attachments/assets/f560576f-43c0-4a77-a6bd-28ad9d07f61a" />
 
-What is the overall on-time performance?
+💡 TOOLTIP
 
-Which airlines have the highest number of cancellations?
+<img width="1065" height="797" alt="Tooltip Airport" src="https://github.com/user-attachments/assets/d4836f0f-9c6c-4091-994b-27874f65679b" />
 
-Which airlines experience the highest average departure delays?
 
-Which airports have the highest flight volume?
+## 📊 Project Overview
 
-Which states have higher cancellation rates?
+This project is an interactive **Power BI Airline Performance Dashboard** developed to analyze flight operations, airline performance, delays, cancellations, airport activity, and historical trends.
 
-What are the major cancellation causes?
+The dashboard transforms flight-level data into an interactive business intelligence solution using **DAX, Power Query, KPI cards, slicers, charts, maps, drill-through analysis, report-page tooltips, and forecasting**.
 
-How has flight volume changed over time?
+### 🎯 Key Questions Answered
 
-What does the future flight-volume trend look like?
+* How many flights were operated?
+* What is the overall on-time performance?
+* Which airlines have the highest number of cancellations?
+* Which airlines have the highest average departure delays?
+* Which airports have the highest flight volume?
+* Which states have higher cancellation rates?
+* What are the major cancellation causes?
+* How does flight volume change over time?
+* What is the expected future flight-volume trend?
 
-🎯 Business Objectives
+---
 
-The dashboard focuses on four major analytical areas:
+## 🖥️ Dashboard Pages
 
-Overall Flight Operations – Monitor total flights, cancellations, delays, and on-time performance.
+### 1️⃣ Overview
 
-Airline Performance – Compare airlines using cancellation counts, cancellation rates, and average departure delays.
+The **Overview** page provides a high-level summary of overall airline operations.
 
-Airport & Route Analysis – Understand flight volume and cancellation performance geographically.
+#### 📌 KPIs
 
-Trend & Forecast Analysis – Analyze monthly and yearly patterns and estimate future flight volume.
+* Total Flights
+* Total Cancelled Flights
+* On-Time Rate
+* Cancellation Rate
+* Average Departure Delay
+* Average Arrival Delay
 
-🖥️ Dashboard Pages
+#### 📊 Visualizations
 
-1. Overview
+* **Flight Cancellations by Cause** – Donut chart showing cancellation reasons.
+* **Flight Outcome Distribution** – Donut chart showing flight outcomes.
+* **Overall On-Time Rate vs 80% Target** – Gauge chart comparing actual performance with the target.
 
-The Overview page provides a high-level summary of airline operations.
+#### 🎛️ Filters
 
-KPIs
+* Airline
+* Delay Status
+* Flight Year
+* Other flight-related filters
 
-Total Flights
+---
 
-Total Cancelled Flights
+### 2️⃣ Airline Performance
 
-On-Time Rate
+This page compares airline performance using different operational metrics.
 
-Cancellation Rate
+#### 📊 Visualizations
 
-Average Departure Delay
+**Top 10 Airlines by Cancellation Count**
 
-Average Arrival Delay
+* Identifies airlines with the highest number of cancelled flights.
 
-Visuals
+**Top 10 Airlines by Average Departure Delay**
 
-Flight Cancellations by Cause – Donut chart showing cancellation reasons.
+* Compares airlines based on their average departure delay.
 
-Flight Outcome Distribution – Donut chart comparing flight outcomes.
+**Airline Cancellation Rate Heatmap by Year**
 
-Overall On-Time Rate vs 80% Target – Gauge visual comparing actual performance with a target benchmark.
+* Shows cancellation-rate patterns across airlines and years.
 
-Filters / Slicers
+**Airline Performance Table**
 
-The page includes interactive slicers for:
+* Provides detailed airline-level performance information.
 
-Airline
+#### 📌 Metrics Analyzed
 
-Delay Status
+* Total Flights
+* Cancellation Rate
+* On-Time Rate
+* Average Departure Delay
+* Cancellation Count
 
-Flight Year
+An **Airline slicer** is also provided for interactive filtering.
 
-Additional flight-related filtering
+---
 
-These filters allow the entire dashboard to be explored dynamically.
+### 3️⃣ Route & Airport Map
 
-2. Airline Performance
+This page provides geographical analysis of flight activity and cancellation performance.
 
-This page focuses on comparing airline-level performance.
+#### 🗺️ US Departure Airports – Flight Volume and Avg Delay
 
-Visuals
+A **Bubble Map** is used to analyze departure airports.
 
-Top 10 Airlines by Cancellation Count
+* **Location:** Origin Airport
+* **Bubble Size:** Total Flights
+* **Bubble Intensity:** Average Departure Delay
 
-Identifies airlines with the highest number of cancelled flights.
+This helps identify airports with high flight volume and higher average delays.
 
-Helps highlight airlines requiring further operational investigation.
+#### 🗺️ US State Cancellation Rate
 
-
-
-Top 10 Airlines by Average Departure Delay
-
-Compares airlines based on average departure delay in minutes.
-
-Useful for identifying airlines with higher delay exposure.
-
-Airline Cancellation Rate Heatmap by Year
-
-Shows cancellation-rate patterns across airlines and years.
-
-Makes year-over-year airline performance differences easier to identify.
-
-Airline Performance Table
-
-Provides detailed airline-level metrics including:
-
-Total Flights
-
-Cancellation Rate
-
-On-Time Rate
-
-Other relevant performance measures
-
-This page also uses an Airline slicer for focused analysis.
-
-3. Route & Airport Map
-
-This page provides a geographical view of flight activity and cancellation performance.
-
-US Departure Airports – Flight Volume and Avg Delay
-
-A Bubble Map is used to analyze departure airports.
-
-Location: Origin Airport
-
-Bubble Size: Total Flights
-
-Bubble intensity: Average Departure Delay
-
-This makes it easy to identify airports with:
-
-High flight volume
-
-Higher average departure delays
-
-US State Cancellation Rate Map
-
-A Filled Map displays cancellation rates by US state.
+A **Filled Map** displays cancellation rates by US state.
 
 This helps identify geographical areas with relatively higher or lower cancellation rates.
 
-Filter
+#### 🎛️ Filter
 
-Flight Year slicer
+* Flight Year
 
-4. Drill-Through Detail
+---
 
-The Drill-Through Detail page provides deeper analysis for a selected airline.
+### 4️⃣ Drill-Through Detail
 
-When a user selects an airline and drills through, the page provides airline-specific details.
+The **Drill-Through Detail** page provides detailed analysis for a selected airline.
 
-KPIs
+When an airline is selected and the user performs a drill-through, airline-specific information is displayed.
 
-Total Flights for Selected Airline
+#### 📌 KPIs
 
-Cancellation Rate for Selected Airline
+* Total Flights for Selected Airline
+* Cancellation Rate for Selected Airline
 
-Visuals
+#### 📊 Visualizations
 
-Total Cancelled by Flight Month
+**Total Cancelled by Flight Month**
 
-Monthly breakdown of cancelled flights.
+* Monthly breakdown of cancelled flights.
 
-Cancellation Reason
+**Cancellation Reason**
 
-Donut chart showing cancellation causes for the selected airline.
+* Donut chart showing cancellation causes.
 
-Top 100 Origin by Arrival Delay
+**Top 100 Origin by Arrival Delay**
 
-Detailed table containing:
+* Detailed table containing:
 
-Origin Airport
+  * Origin Airport
+  * Destination Airport
+  * Departure Delay
+  * Arrival Delay
+  * Flight Date
 
-Destination Airport
+**On-Time Rate Trend by Flight Year**
 
-Departure Delay
+* Line chart showing the selected airline's on-time performance over the years.
 
-Arrival Delay
+#### 🔄 Power BI Concept Used
 
-Flight Date
+* Drill-through filtering
+* Context-aware KPIs
+* Dynamic airline-specific analysis
 
-On-Time Rate Trend by Flight Year
+---
 
-Line chart showing how the selected airline's on-time rate changes over the years.
+### 5️⃣ Trends & Forecast
 
-Power BI Concept Used
+This page focuses on historical trends and future flight-volume projections.
 
-Drill-through filtering
-
-Context-aware KPIs and visuals
-
-Airline-specific detailed analysis
-
-5. Trends & Forecast
-
-This page focuses on historical flight trends and future projections.
-
-Monthly Flight Volume by Year
+#### 📈 Monthly Flight Volume by Year
 
 A line chart compares monthly flight volume across different years.
 
-Total Monthly Flight Volume – Trend & 6-Month Forecast
+#### 🔮 Total Monthly Flight Volume – Trend & 6-Month Forecast
 
 This visual combines:
 
-Historical monthly flight volume
+* Historical monthly flight volume
+* Trend analysis
+* 6-month forecast
+* Forecast confidence boundaries
 
-Trend analysis
+This helps understand expected future flight-volume movement.
 
-6-month forecast
+#### 📉 Monthly Average Departure Delay by Year
 
-Forecast confidence boundaries
+A line chart compares monthly average departure delays across different years.
 
-This helps identify expected future flight-volume movement.
+---
 
-Monthly Average Departure Delay by Year
+### 6️⃣ Airport Tooltip
 
-A line chart compares monthly average departure delays across years.
+A dedicated **Report Page Tooltip** is used to display additional airport information without overcrowding the main map.
 
-Filter
+The tooltip provides:
 
-Flight Month / Year based filtering
+* Total Flights
+* Cancellation Rate
+* Top Destination Airports
 
-6. Tooltip – Airport
+This improves the interactivity and usability of the **Route & Airport Map**.
 
-A dedicated report-page tooltip is used to provide additional airport information without overcrowding the main map.
+---
 
-The tooltip displays:
+# 📐 DAX & Data Analysis
 
-Total Flights
+The dashboard uses DAX measures to perform dynamic calculations based on the current filter context.
 
-Cancellation Rate
-
-Top Destination Airports
-
-This improves the interactivity and readability of the Route & Airport Map.
-
-
-
-📐 DAX & Data Analysis Concepts
-
-The dashboard uses Power BI measures for dynamic calculations.
-
-Core Measures
-
-Total_flight
+### 🔹 Total Flights
 
 Calculates the total number of flight records in the current filter context.
 
-Total_Cancelled
+### 🔹 Total Cancelled
 
-Calculates the number of cancelled flights using filter-based calculation logic.
+Calculates the total number of cancelled flights using filter-based calculation logic.
 
-Cancellation_Rate %
+### 🔹 Cancellation Rate %
 
 Calculates the percentage of flights that were cancelled.
 
-On_Time_Rate
+### 🔹 On-Time Rate
 
 Calculates the percentage of flights meeting the defined on-time condition.
 
-Avg_Dep_Delay
+### 🔹 Average Departure Delay
 
-Calculates average departure delay.
+Calculates the average departure delay in minutes.
 
-Avg_Arr_Delay
+### 🔹 Average Arrival Delay
 
-Calculates average arrival delay.
+Calculates the average arrival delay in minutes.
 
-Target_value
+### 🔹 Target Value
 
 Provides the target benchmark used in the On-Time Rate gauge.
 
-🔄 Power BI Features Used
+---
 
-This project demonstrates practical use of several Power BI concepts:
+# 🔄 Power BI Concepts Used
 
-✅ Data modeling
+This project demonstrates practical implementation of:
 
-✅ DAX measures
+* ✅ Data Cleaning & Transformation
+* ✅ Power Query
+* ✅ Data Modeling
+* ✅ DAX Measures
+* ✅ Filter Context
+* ✅ CALCULATE
+* ✅ DIVIDE
+* ✅ KPI Cards
+* ✅ Slicers
+* ✅ Bar Charts
+* ✅ Line Charts
+* ✅ Donut Charts
+* ✅ Gauge Chart
+* ✅ Matrix / Heatmap
+* ✅ Tables
+* ✅ Bubble Maps
+* ✅ Filled Maps
+* ✅ Drill-Through
+* ✅ Report Page Tooltips
+* ✅ Conditional Analysis
+* ✅ Time-Series Analysis
+* ✅ Forecasting
+* ✅ Interactive Navigation
+* ✅ Dynamic Filtering
 
-✅ Filter context
+---
 
-✅ CALCULATE-based calculations
+# 🗂️ Key Data Fields
 
-✅ DIVIDE-based percentage calculations
+The dashboard uses flight-level fields including:
 
-✅ KPI cards
-
-✅ Slicers
-
-✅ Bar charts
-
-✅ Line charts
-
-✅ Donut charts
-
-✅ Gauge chart
-
-✅ Matrix / heatmap
-
-✅ Table visual
-
-✅ Bubble map
-
-✅ Filled map
-
-✅ Drill-through pages
-
-✅ Report-page tooltips
-
-✅ Conditional visual analysis
-
-✅ Time-series analysis
-
-✅ Forecasting
-
-✅ Interactive page navigation
-
-✅ Dynamic filtering
-
-🗂️ Key Data Fields Used
-
-The report uses flight-level fields such as:
-
-AIRLINE
-
-AIRLINE_CODE
-
-ORIGIN
-
-DEST
-
-FL_DATE
-
-Flight_Year
-
-Flight_Month
-
-Flight_Month_Start
-
-DEP_DELAY
-
-ARR_DELAY
-
-CANCELLATION_CODE
-
-Delay_Status
-
-State
+* `AIRLINE`
+* `AIRLINE_CODE`
+* `ORIGIN`
+* `DEST`
+* `FL_DATE`
+* `Flight_Year`
+* `Flight_Month`
+* `Flight_Month_Start`
+* `DEP_DELAY`
+* `ARR_DELAY`
+* `CANCELLATION_CODE`
+* `Delay_Status`
+* `State`
 
 These fields support airline, airport, delay, cancellation, geographical, and time-series analysis.
 
-📈 Key Business Insights Enabled
+---
 
-The dashboard allows stakeholders to identify:
+# 📈 Business Insights
 
-Airlines with the highest cancellation volumes.
+The dashboard enables users and business stakeholders to identify:
 
-Airlines with higher average departure delays.
+* Airlines with the highest cancellation volumes.
+* Airlines experiencing higher average departure delays.
+* Changes in cancellation rates across different years.
+* Airports handling the highest number of flights.
+* Airports associated with higher average departure delays.
+* States with comparatively higher cancellation rates.
+* Major cancellation causes.
+* Monthly and yearly flight-volume patterns.
+* Changes in airline on-time performance.
+* Expected future flight-volume trends using forecasting.
 
-Changes in cancellation rates across years.
+---
 
-Airports handling the highest number of flights.
+# 🎨 Dashboard Design
 
-Airports associated with higher average departure delays.
+The dashboard follows an interactive analytical flow:
 
-States with comparatively higher cancellation rates.
+**Overview → Airline Performance → Route & Airport Analysis → Drill-Through Details → Trends & Forecast**
 
-Major cancellation causes.
+Interactive slicers, drill-through functionality, maps, tooltips, and forecasting allow users to move from high-level KPIs to detailed airline and airport analysis.
 
-Monthly and yearly flight-volume patterns.
+The report is designed to be **clean, interactive, easy to navigate, and suitable for business intelligence analysis**.
 
-Changes in on-time performance over time.
+---
 
-Expected future flight-volume trends through forecasting.
+# 🛠️ Tools & Technologies
 
-🎨 Dashboard Design
+| Tool / Technology        | Purpose                                 |
+| ------------------------ | --------------------------------------- |
+| **Power BI Desktop**     | Dashboard development and visualization |
+| **DAX**                  | Analytical calculations and measures    |
+| **Power Query**          | Data cleaning and transformation        |
+| **Data Modeling**        | Structuring data for analysis           |
+| **Power BI Maps**        | Geographical analysis                   |
+| **Power BI Forecasting** | Future trend analysis                   |
 
-The report is designed with a clean, interactive dashboard structure so users can move from high-level KPIs → airline comparison → geographical analysis → detailed airline investigation → trends and forecasting.
+---
 
-The use of consistent navigation, slicers, drill-through functionality, and tooltips makes the report suitable for both quick management-level review and deeper operational analysis.
+# 📁 Project Structure
 
-🛠️ Tools & Technologies
-
-Tool
-
-Purpose
-
-Power BI Desktop
-
-Dashboard development and visualization
-
-DAX
-
-Measures and analytical calculations
-
-Power Query
-
-Data preparation / transformation
-
-Data Modeling
-
-Relationships and analytical structure
-
-Power BI Maps
-
-Airport and state-level geographical analysis
-
-Power BI Forecasting
-
-Future flight-volume estimation
-
-📁 Project Structure
-
+```text
 Airline-Flight-Performance-Dashboard/
 │
 ├── Project_5(1).pbix
 ├── README.md
 └── Dashboard-Screenshot/
     └── dashboard-overview.png
+```
 
-🚀 How to Use
+---
 
-Download or clone this repository.
+# 🚀 How to Use
 
-Open Project_5(1).pbix using Power BI Desktop.
+1. Download or clone this repository.
+2. Open `Project_5(1).pbix` using **Power BI Desktop**.
+3. Navigate through the dashboard pages.
+4. Use the available slicers to filter the data.
+5. Select an airline to analyze airline-specific performance.
+6. Use **Drill-Through** to view detailed airline analysis.
+7. Hover over airport map points to view the custom tooltip.
+8. Open the **Trends & Forecast** page to analyze historical and future trends.
 
-Navigate through the dashboard pages using the page navigation buttons.
+---
 
-Use slicers to filter the analysis.
+# 💡 Project Outcome
 
-Select an airline to explore airline-specific performance.
+This project demonstrates how raw airline flight data can be transformed into an **interactive Business Intelligence dashboard using Microsoft Power BI**.
 
-Use Drill-through to open detailed airline analysis.
+The project combines:
 
-Hover over airport map points to view the custom tooltip.
+**Data Analysis + DAX + Power Query + Data Visualization + Data Modeling + Geographical Analysis + Drill-Through + Tooltips + Forecasting**
 
-Explore the Trends & Forecast page to understand historical patterns and future projections.
+to create a complete airline performance analytics solution.
 
-💡 Project Outcome
+---
 
-This project demonstrates how raw flight data can be converted into an interactive business intelligence solution using Power BI.
+## 👩‍💻 Author
 
-It combines data analysis, DAX, visualization, geographical analysis, drill-through, tooltips, and forecasting into a single dashboard designed for practical airline operations and performance analysis.
+### Disha Chaudhari
 
-👩‍💻 Author
+**B.Sc. IT | Data Analytics / Power BI**
 
-Disha Chaudhari
+### Skills Demonstrated
 
-B.Sc. IT | Data Analytics / Power BI
+`Power BI` `DAX` `Power Query` `Data Analysis` `Data Visualization` `Data Modeling` `Business Intelligence` `Forecasting`
 
-Skills Demonstrated
+---
 
-Power BI DAX Power Query Data Visualization Data Analysis Data Modeling Business Intelligence Forecasting
+⭐ **If you find this project useful, feel free to star the repository!**
