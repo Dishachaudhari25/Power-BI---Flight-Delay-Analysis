@@ -113,6 +113,8 @@ Identifies airlines with the highest number of cancelled flights.
 
 Helps highlight airlines requiring further operational investigation.
 
+
+
 Top 10 Airlines by Average Departure Delay
 
 Compares airlines based on average departure delay in minutes.
@@ -260,6 +262,8 @@ Cancellation Rate
 Top Destination Airports
 
 This improves the interactivity and readability of the Route & Airport Map.
+
+
 
 📐 DAX & Data Analysis Concepts
 
