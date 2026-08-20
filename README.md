@@ -21,7 +21,8 @@
 
 📈 TREND & FORECAST
 
-<img width="818" height="612" alt="Screenshot 2026-08-20 113331" src="https://github.com/user-attachments/assets/f560576f-43c0-4a77-a6bd-28ad9d07f61a" />
+<img width="1410" height="800" alt="Trends   Forecast" src="https://github.com/user-attachments/assets/6dae186a-7c43-4521-8cc5-42cea027d923" />
+
 
 💡 TOOLTIP
 
